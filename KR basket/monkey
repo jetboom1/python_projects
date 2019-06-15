@@ -1,0 +1,8 @@
+import HDM
+import math
+v = int(input('введите начальную скорость'))
+l = int(input('введите расстояние от обезьяны до дерева'))
+H = int(input('введите высоту, на которой висят бананы'))
+h = int(input('введите рост обезьяны'))
+eps = float(input('введите точность'))
+print(HDM.HDM(0,100,eps,lambda x: (h+v*math.sin(x)*(l/(v*math.cos(x)))-((9.8*l**2)/(2*(v**2)*(math.cos(x)**2)))-H)))
