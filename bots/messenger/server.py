@@ -1,5 +1,5 @@
-from twisted.internet.protocol import Protocol, Factory
 from twisted.internet import reactor
+from twisted.internet.protocol import Protocol, Factory
 
 
 class Client(Protocol):
@@ -21,10 +21,10 @@ class Client(Protocol):
         self.ip = self.transport.getHost().host
         self.factory.clients.append(self)
         print(f"Client connected: {self.ip}\n")
-        #self.factory.notify_all_users(f'New user {self.login} has been connected\n')
+        # self.factory.notify_all_users(f'New user {self.login} has been connected\n')
         self.transport.write("Welcome to the chat buddy\n".encode())
         for message in self.factory.messagesList:
-            self.transport.write((message+'\n').encode())
+            self.transport.write((message + '\n').encode())
 
     def dataReceived(self, data: bytes):
         """
@@ -34,7 +34,7 @@ class Client(Protocol):
         message = data.decode().replace('\n', '')
         if self.login is not None:
             server_message = f'{self.login}: {message}'
-            self.factory.notify_all_users(server_message+'\n')
+            self.factory.notify_all_users(server_message + '\n')
             self.factory.messagesList.append(server_message)
             print(server_message)
         else:
@@ -94,10 +94,9 @@ class Chat(Factory):
         :return:
         """
         for user in self.clients:
-            user.transport.write((data+'\n').encode())
+            user.transport.write((data + '\n').encode())
 
 
 if __name__ == '__main__':
-
     reactor.listenTCP(7410, Chat())
     reactor.run()
