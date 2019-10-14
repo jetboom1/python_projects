@@ -117,7 +117,8 @@ def send_user_notifications(chat_id):
     big_string = ''
     for value in my_bot.database:
         if value[0] == chat_id:
-            string = value[1] + f' | {value[2][6:8]} {my_bot.months[value[2][4:6]]} в ' f'{value[2][8:10]}:{value[2][10:12]}'
+            string = value[1] + f' | {value[2][6:8]} {my_bot.months[value[2][4:6]]} в {value[2][8:10]}:{value[2][
+                                                                                                        10:12]}'
             user_notifications.append(string)
     for string in user_notifications:
         big_string += (string + '\n')
@@ -189,12 +190,12 @@ def main():
             last_update_text = last_update['message']['text']
             if last_update_text == '/start':
                 my_bot.send_message('Вас приветствует бот-напоминалка! Если вы хотите поставить напоминание, то'
-                                    'отправьте мне "/newnotification"', last_update['message']['chat']['id'])
+                                    'отправьте мне "/newNotification"', last_update['message']['chat']['id'])
             if last_update_text == '/author':
                 my_bot.send_message('Автор - Николай Франко @nikolai_franko', last_update['message']['chat']['id'])
-            if last_update_text == '/newnotification':
+            if last_update_text == '/newNotification':
                 create_notification()
-            if last_update_text == '/viewmynotifications':
+            if last_update_text == '/viewMyNotifications':
                 send_user_notifications(last_update['message']['chat']['id'])
             new_offset = last_update_id + 1
 
