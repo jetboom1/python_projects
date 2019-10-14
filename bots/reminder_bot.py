@@ -146,7 +146,7 @@ def create_notification():
             else:
                 notification_text = last_update['message']['text']
                 my_bot.send_message('Хорошо, когда вам это нужно напомнить'
-                                    '(введите в формате год месяц день час минута)?',
+                                    '(введите в формате день месяц час минута)?',
                                     last_update['message']['chat']['id'])
                 new_offset = last_update['update_id'] + 1
         if stage == 2:
@@ -159,7 +159,7 @@ def create_notification():
                 notification_time = last_update['message']['text']
                 date_list = list(map(int, notification_time.split()))
                 print(date_list)
-                date_and_time = datetime.datetime(date_list[0], date_list[1], date_list[2], date_list[3], date_list[4])
+                date_and_time = datetime.datetime(int(datetime.datetime.now().strftime("%Y")), date_list[1], date_list[0], date_list[2], date_list[3])
                 result_time = date_and_time.strftime("%Y%m%d%H%M")
                 my_bot.database.append([
                     last_update['message']['chat']['id'],  # chat_id
@@ -167,8 +167,8 @@ def create_notification():
                     result_time  # 'time':
                 ])
                 my_bot.send_message(
-                    f'Отлично, мы напомним вам {notification_text} {date_list[2]} {my_bot.months[date_list[1]]}'
-                    f' в {date_list[3]}:{date_list[4]}',
+                    f'Отлично, мы напомним вам {notification_text} {date_list[1]} {my_bot.months[date_list[1]]}'
+                    f' в {date_list[2]}:{date_list[3]}',
                     last_update['message']['chat']['id'])
                 print(my_bot.database)
                 new_offset = last_update['update_id'] + 1
