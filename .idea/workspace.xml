@@ -2,13 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fc47d25d-3cb2-4451-864f-21188de53ba1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bots/airRatingBot.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bots/airRatingBot1.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/python.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/python.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bots/messenger/server.py" beforeDir="false" afterPath="$PROJECT_DIR$/bots/messenger/server.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bots/reminder_bot.py" beforeDir="false" afterPath="$PROJECT_DIR$/bots/reminder_bot.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reqs.txt" beforeDir="false" afterPath="$PROJECT_DIR$/reqs.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,31 +18,32 @@
     <session id="1958021352">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="6" />
           <entry key="project.open.time.5" value="2" />
+          <entry key="project.open.time.6" value="3" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.opened" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="Python Console" value="22" />
-          <entry key="py" value="43" />
+          <entry key="Python Console" value="51" />
+          <entry key="py" value="4057" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="65" />
+          <entry key="Python" value="4108" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="2" />
+          <entry key="py" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="2" />
+          <entry key="Python" value="7" />
         </counts>
       </usages-collector>
     </session>
@@ -54,11 +53,26 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bots/reminder_bot.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="161" column="148" selection-start-line="161" selection-start-column="148" selection-end-line="161" selection-end-column="148" />
+            <state relative-caret-position="2601">
+              <caret line="155" column="31" selection-start-line="155" selection-start-column="31" selection-end-line="155" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/bots/airRatingBot.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
+              <folding>
+                <element signature="e#0#115#0" expanded="true" />
+                <marker date="1587481535385" expanded="true" signature="2351:2352" ph="..." />
+                <marker date="1587481535385" expanded="true" signature="2378:3834" ph="..." />
+                <marker date="1587481535385" expanded="true" signature="4487:4579" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -123,6 +137,8 @@
         <option value="$PROJECT_DIR$/bots/messenger/server.py" />
         <option value="$PROJECT_DIR$/bots/test.py" />
         <option value="$PROJECT_DIR$/bots/reminder_bot.py" />
+        <option value="$PROJECT_DIR$/bots/airRatingBot1.py" />
+        <option value="$PROJECT_DIR$/bots/airRatingBot.py" />
       </list>
     </option>
   </component>
@@ -131,6 +147,18 @@
     <option name="y" value="276" />
     <option name="width" value="1166" />
     <option name="height" value="718" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State />
+          <State>
+            <id>XML</id>
+          </State>
+        </expanded-state>
+      </profile-state>
+    </entry>
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -161,10 +189,11 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="Python" />
     <property name="last_opened_file_path" value="$USER_HOME$/.local/bin" />
-    <property name="settings.editor.selected.configurable" value="MTConfigurable" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\fogum\Desktop\Важные файлы\python\bots" />
       <recent name="C:\Users\fogum\Desktop\Важные файлы\python\KR basket" />
       <recent name="C:\Users\fogum\Desktop\Важные файлы\python\files" />
       <recent name="C:\Users\fogum\Desktop\Важные файлы\python\spiski" />
@@ -183,8 +212,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.test">
-    <configuration name="00twisted" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.airRatingBot">
+    <configuration name="airRatingBot" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -192,11 +221,32 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/bots/messenger" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/bots" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/bots/messenger/00twisted" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/bots/airRatingBot.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="airRatingBot1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/bots" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/bots/airRatingBot1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -247,27 +297,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="server" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="python" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/bots/messenger" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/bots/messenger/server.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -290,19 +319,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.00twisted" />
-      <item itemvalue="Python.server" />
       <item itemvalue="Python.client" />
       <item itemvalue="Python.reminder_bot" />
       <item itemvalue="Python.test" />
+      <item itemvalue="Python.airRatingBot" />
+      <item itemvalue="Python.airRatingBot1" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.airRatingBot" />
+        <item itemvalue="Python.airRatingBot1" />
         <item itemvalue="Python.reminder_bot" />
         <item itemvalue="Python.test" />
         <item itemvalue="Python.client" />
-        <item itemvalue="Python.server" />
-        <item itemvalue="Python.00twisted" />
       </list>
     </recent_temporary>
   </component>
@@ -312,7 +341,7 @@
     <option name="ACTIVE_ACTIONS" value=",SHOW_INHERITED,SHOW_FIELDS" />
   </component>
   <component name="SvnConfiguration">
-    <configuration />
+    <configuration>C:\Users\fogum\AppData\Roaming\Subversion</configuration>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -345,17 +374,17 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.57325745" visible="true" weight="0.1780822" />
-      <window_info id="Structure" order="1" sideWeight="0.42674252" side_tool="true" visible="true" weight="0.1780822" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.57049894" visible="true" weight="0.1780822" />
+      <window_info id="Structure" order="1" sideWeight="0.4295011" side_tool="true" visible="true" weight="0.1780822" />
       <window_info id="Favorites" order="2" sideWeight="0.4142395" side_tool="true" weight="0.17913593" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32967034" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49947312" visible="true" weight="0.23752712" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49947312" weight="0.39154014" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39696312" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32857144" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32967034" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.3286334" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.3275488" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50052685" side_tool="true" weight="0.23969631" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.3253796" />
@@ -640,27 +669,47 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bots/firstofmybot.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="610">
-          <caret line="80" column="34" selection-start-line="80" selection-start-column="34" selection-end-line="80" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/bots/test.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="213">
           <caret line="107" column="46" lean-forward="true" selection-start-line="107" selection-start-column="10" selection-end-line="107" selection-end-column="46" />
-          <folding>
-            <element signature="e#14#29#0" expanded="true" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bots/firstofmybot.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="816">
+          <caret line="48" column="30" lean-forward="true" selection-start-line="48" selection-start-column="30" selection-end-line="48" selection-end-column="30" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bots/reminder_bot.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="161" column="148" selection-start-line="161" selection-start-column="148" selection-end-line="161" selection-end-column="148" />
+        <state relative-caret-position="2601">
+          <caret line="155" column="31" selection-start-line="155" selection-start-column="31" selection-end-line="155" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bots/airRatingBot1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1445">
+          <caret line="85" lean-forward="true" selection-start-line="85" selection-end-line="85" />
+          <folding>
+            <element signature="e#0#115#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bots/airRatingBot.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
+          <folding>
+            <element signature="e#0#115#0" expanded="true" />
+            <marker date="1587481535385" expanded="true" signature="2351:2352" ph="..." />
+            <marker date="1587481535385" expanded="true" signature="2378:3834" ph="..." />
+            <marker date="1587481535385" expanded="true" signature="4487:4579" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
